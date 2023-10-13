@@ -34,6 +34,7 @@
           " is not supported by Chrome, Chrome Android, Edge, Firefox, Firefox for Android, Opera, Safari, Safari on iOS, Samsung Internet. Add "
         ]
       }
-    ]
+    ],
+    "disown-opener": "off"
   }
 }
