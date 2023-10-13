@@ -31,7 +31,8 @@
       "default",
       {
         "ignore": [
-          " is not supported by Chrome, Chrome Android, Edge, Firefox, Firefox for Android, Opera, Safari, Safari on iOS, Samsung Internet. Add "
+          " is not supported by Chrome, Chrome Android, Edge, Firefox, Firefox for Android, Opera, Safari, Safari on iOS, Samsung Internet. Add ",
+          "scrollbar-width"
         ]
       }
     ],

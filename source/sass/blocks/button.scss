@@ -17,6 +17,7 @@
 .button--log-in {
   background-color: #1e1231;
   border: 2px solid #9dadf2;
+  cursor: pointer;
 
   @media (min-width: $desctop-width) {
     width: 91px;
@@ -37,6 +38,7 @@
 
 .button--sign-up {
   background-color: #478bf9;
+  cursor: pointer;
 
 
   @media (min-width: $desctop-width) {
@@ -61,17 +63,17 @@
   font-size: 18px;
   line-height: 23px;
   text-decoration: none;
+  width: 100%;
   padding: 15px 20px;
   border-radius: 26px;
-  width: 100%;
   background-color: #478bf9;
 
   @media (min-width: $desctop-width) {
     font-size: 24px;
     line-height: 32px;
+    width: 393px;
     padding: 20px 72px;
     border-radius: 48px;
-    width: 393px;
   }
 
   &:hover {

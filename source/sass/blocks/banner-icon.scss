@@ -17,9 +17,9 @@
   flex-wrap: wrap;
   gap: 10px;
   list-style: none;
+  width: 100%;
   padding: 0;
   margin: 0;
-  width: 100%;
 
   @media (min-width: $desctop-width) {
     display: grid;
@@ -30,18 +30,18 @@
 }
 
 .banner-icon__item {
-  height: 50px;
-  width: 100%;
   background-repeat: repeat;
   background-size: contain;
+  height: 50px;
+  width: 100%;
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 
   @media (min-width: $desctop-width) {
-    width: 99px;
-    height: 100%;
     box-shadow: 0 -100px 40px -29px rgb(18, 11, 32) inset;
+    height: 100%;
+    width: 99px;
   }
 }
 
@@ -93,6 +93,7 @@
 .banner-icon__item--line-2 {
   background-image: url("../img//banner-icon-2.png");
   animation-name: banner-icon-2;
+  background-position-x: -143px;
   background-size: auto;
 
   @keyframes banner-icon-2 {
@@ -117,6 +118,7 @@
   @media (min-width: $desctop-width) {
     background-image: url("../img/banner-icon-2-desctop.png");
     background-size: contain;
+    background-position-x: center;
 
     @keyframes banner-icon-2 {
       0% {
