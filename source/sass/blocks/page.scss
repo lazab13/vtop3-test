@@ -31,8 +31,8 @@
     &::after {
       content: "";
       position: absolute;
-      width: 335px;
       height: 100%;
+      width: 335px;
       grid-column: 2/-1;
     }
   }
