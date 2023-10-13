@@ -5,292 +5,319 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Тестовое задание для компании ВТОП3</title>
+  <link rel="stylesheet" href="css/simplebar.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="preload" href="fonts/futura/futura400.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/lexend/lexend400.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/lexend/lexend500.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="fonts/lexend/lexend600.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+  <link rel="icon" href="favicon.ico"><!-- 32×32 -->
+  <link rel="apple-touch-icon" href="img/favicons/apple.png"> <!-- 180×180 -->
+  <link rel="manifest" href="manifest.webmanifest">
 </head>
 
 <body class="page__body">
 
-  <header class="main-header main-header--nojs">
-    <div class="main-header__wrapper">
-      <button class="main-header__button-language" type="button">
-        <span class="visually-hidden">
-          Сменить язык
-        </span>
-      </button>
+  <div class="page__box">
+    <header class="main-header main-header--nojs">
+      <div class="main-header__wrapper">
+        <div class="main-header__button-box main-header__button-box--en">
+          <button class="main-header__button" type="button">
+            <span class="visually-hidden">
+              Сменить язык
+            </span>
+          </button>
+        </div>
 
-      <nav class="main-header__nav main-nav main-nav--closed main-nav--nojs">
-        <button class="main-nav__toggle" type="button">
-          <span class="visually-hidden">
-            Открыть меню
-          </span>
-        </button>
+        <nav class="main-header__nav main-nav main-nav--closed main-nav--nojs">
+          <button class="main-nav__toggle" type="button">
+            <span class="visually-hidden">
+              Открыть меню
+            </span>
+          </button>
 
-        <div class="main-nav__wrapper">
-          <ul class="main-nav__list site-list">
-            <li class="site-list__item">
-              <a class="site-list__link site-list__link--color site-list__link--current">
-                About us
+          <div class="main-nav__wrapper">
+            <ul class="main-nav__list site-list">
+              <li class="site-list__item">
+                <a class="site-list__link site-list__link--current">
+                  About us
+                </a>
+              </li>
+
+              <li class="site-list__item">
+                <a class="site-list__link" href="#">
+                  Brands
+                </a>
+              </li>
+
+              <li class="site-list__item">
+                <a class="site-list__link" href="#">
+                  Commissions
+                </a>
+              </li>
+
+              <li class="site-list__item">
+                <a class="site-list__link" href="#">
+                  News
+                </a>
+              </li>
+
+              <li class="site-list__item">
+                <a class="site-list__link" href="#">
+                  Contact us
+                </a>
+              </li>
+
+              <li class="site-list__item">
+                <a class="site-list__link" href="#">
+                  Careers
+                </a>
+              </li>
+            </ul>
+
+            <div class="main-nav__button-box">
+              <button class="main-nav__button button button--log-in" type="button">
+                Log in
+              </button>
+
+              <button class="main-nav__button button button--sign-up" type="button">
+                Sign up
+              </button>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page__main">
+      <section class="home-page">
+        <h1 class="home-page__title">
+          House of <span class="home-page__title-another">gambling</span>
+        </h1>
+
+        <p class="home-page__text">
+          Raise your ROI with direct advertiser
+        </p>
+
+        <a class="home-page__link button button--home-page" href="#" target="_blank">
+          Become a partner
+        </a>
+      </section>
+
+      <div class="banner-icon">
+        <ul class="banner-icon__list">
+          <li class="banner-icon__item banner-icon__item--line-1">
+          </li>
+
+          <li class="banner-icon__item banner-icon__item--line-2">
+          </li>
+
+          <li class="banner-icon__item banner-icon__item--line-3">
+          </li>
+        </ul>
+      </div>
+
+      <aside class="blog">
+        <h1 class="blog__title">
+          Blog
+        </h1>
+
+        <div class="blog__wrapper" data-simplebar>
+          <ul class="blog__list">
+            <li class="blog__item">
+              <a class="blog__link blog__link--current"
+                href="https://news.google.com/topics/CAAqJggKIiBDQkFTRWdvSUwyMHZNRGx6TVdZU0FuSjFHZ0pTVlNnQVAB?hl=ru&gl=RU&ceid=RU%3Aru"
+                target="_blank">
+                <p class="blog__text">
+                  Payment methods: Skrill, Neteller, webmoney, Bank transfer
+                </p>
+
+                <time class="blog__date" datetime="2023-02-10 00:00">
+                  10.02.2023
+                </time>
               </a>
             </li>
 
-            <li class="site-list__item">
-              <a class="site-list__link" href="#">
-                Brands
+            <li class="blog__item">
+              <a class="blog__link" href="#" target="_blank">
+                <p class="blog__text">
+                  Payment methods: Skrill, Neteller, webmoney, Bank transfer
+                </p>
+
+                <time class="blog__date" datetime="2023-02-10 00:00">
+                  10.02.2023
+                </time>
               </a>
             </li>
 
-            <li class="site-list__item">
-              <a class="site-list__link" href="#">
-                Commissions
+            <li class="blog__item">
+              <a class="blog__link" href="#" target="_blank">
+                <p class="blog__text">
+                  Payment methods: Skrill, Neteller, webmoney, Bank transfer
+                </p>
+
+                <time class="blog__date" datetime="2023-02-10 00:00">
+                  10.02.2023
+                </time>
               </a>
             </li>
 
-            <li class="site-list__item">
-              <a class="site-list__link" href="#">
-                News
+            <li class="blog__item">
+              <a class="blog__link" href="#" target="_blank">
+                <p class="blog__text">
+                  Payment methods: Skrill, Neteller, webmoney, Bank transfer
+                </p>
+
+                <time class="blog__date" datetime="2023-02-10 00:00">
+                  10.02.2023
+                </time>
               </a>
             </li>
 
-            <li class="site-list__item">
-              <a class="site-list__link" href="#">
-                Contact us
-              </a>
-            </li>
+            <li class="blog__item">
+              <a class="blog__link" href="#" target="_blank">
+                <p class="blog__text">
+                  Payment methods: Skrill, Neteller, webmoney, Bank transfer
+                </p>
 
-            <li class="site-list__item">
-              <a class="site-list__link" href="#">
-                Careers
+                <time class="blog__date" datetime="2023-02-10 00:00">
+                  10.02.2023
+                </time>
               </a>
             </li>
           </ul>
         </div>
+      </aside>
+    </main>
 
-        <div class="main-nav__button-box">
-          <button class="main-nav__button main-nav__button--log-in button" type="button">
-            Log in
-          </button>
+    <footer class="main-footer">
+      <nav class="main-footer__nav main-nav">
+        <ul class="main-nav__list main-nav__list--footer site-list site-list--footer">
+          <li class="site-list__item site-list__item--footer">
+            <a class="site-list__link site-list__link--footer site-list__link--color" href="#" target="_blank">
+              Terms & Conditions
+            </a>
+          </li>
 
-          <button class="main-nav__button main-nav__button--sing-up button" type="button">
-            Sing up
-          </button>
-        </div>
+          <li class="site-list__item site-list__item--footer">
+            <a class="site-list__link site-list__link--footer" href="#" target="_blank">
+              Cookies
+            </a>
+          </li>
+
+          <li class="site-list__item site-list__item--footer">
+            <a class="site-list__link site-list__link--footer" href="#" target="_blank">
+              Contacts
+            </a>
+          </li>
+
+          <li class="site-list__item site-list__item--footer">
+            <a class="site-list__link site-list__link--footer" href="#" target="_blank">
+              Careers
+            </a>
+          </li>
+
+          <li class="site-list__item site-list__item--footer">
+            <a class="site-list__link site-list__link--footer" href="#" target="_blank">
+              Brand Guide
+            </a>
+          </li>
+        </ul>
       </nav>
-    </div>
-  </header>
 
-  <main class="page__main">
-    <section class="home-page">
-      <h1 class="home-page__title">
-        House of <span class="home-page__title-another">gambling</span>
-      </h1>
+      <div class="main-footer__social social">
+        <h2 class="social__title">
+          Our social media:
+        </h2>
 
-      <p class="home-page__text">
-        Raise your ROI with direct advertiser
-      </p>
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link social__link--twitter" href="#" target="_blank" title="Твитер">
+              <span class="visually-hidden">Твитер</span>
 
-      <a class="home-page__link button" href="#" target="_blank">
-        Become a partner
-      </a>
-    </section>
-
-    <div class="banner-icon">
-      <ul class="banner-icon__list">
-        <li class="banner-icon__item">
-
-        </li>
-
-        <li class="banner-icon__item">
-
-        </li>
-
-        <li class="banner-icon__item">
-
-        </li>
-      </ul>
-    </div>
-
-    <aside class="blog">
-      <h1 class="blog__title">
-        Blog
-      </h1>
-
-      <div class="blog__wrapper">
-        <ul class="blog__list">
-          <li class="blog__item">
-            <a class="blog__link blog__link--current" href="#" target="_blank">
-              <p class="blog__text">
-                Payment methods: Skrill, Neteller, webmoney, Bank transfer
-              </p>
-
-              <time class="blog__date" datetime="2023-02-10 00:00">
-                10.02.2023
-              </time>
+              <svg class="social__icon" width="27" height="27">
+                <use href="img/sprite.svg#twitter"></use>
+              </svg>
             </a>
           </li>
 
-          <li class="blog__item">
-            <a class="blog__link" href="#" target="_blank">
-              <p class="blog__text">
-                Payment methods: Skrill, Neteller, webmoney, Bank transfer
-              </p>
+          <li class="social__item">
+            <a class="social__link social__link--facebook" href="#" target="_blank" title="Фейсбук">
+              <span class="visually-hidden">Фейсбук</span>
 
-              <time class="blog__date" datetime="2023-02-10 00:00">
-                10.02.2023
-              </time>
+              <svg class="social__icon" width="27" height="27">
+                <use href="img/sprite.svg#facebook"></use>
+              </svg>
             </a>
           </li>
 
-          <li class="blog__item">
-            <a class="blog__link" href="#" target="_blank">
-              <p class="blog__text">
-                Payment methods: Skrill, Neteller, webmoney, Bank transfer
-              </p>
+          <li class="social__item">
+            <a class="social__link social__link--instagram" href="#" target="_blank" title="Инстаграмм">
+              <span class="visually-hidden">Инстаграмм</span>
 
-              <time class="blog__date" datetime="2023-02-10 00:00">
-                10.02.2023
-              </time>
+              <svg class="social__icon" width="27" height="27">
+                <use href="img/sprite.svg#instagram"></use>
+              </svg>
             </a>
           </li>
 
-          <li class="blog__item">
-            <a class="blog__link" href="#" target="_blank">
-              <p class="blog__text">
-                Payment methods: Skrill, Neteller, webmoney, Bank transfer
-              </p>
+          <li class="social__item">
+            <a class="social__link social__link--linkedln" href="#" target="_blank" title="Линкдел">
+              <span class="visually-hidden">Линкдел</span>
 
-              <time class="blog__date" datetime="2023-02-10 00:00">
-                10.02.2023
-              </time>
+              <svg class="social__icon" width="27" height="27">
+                <use href="img/sprite.svg#linkedln"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="social__item">
+            <a class="social__link social__link--youtube" href="#" target="_blank" title="Ютуб">
+              <span class="visually-hidden">Ютуб</span>
+
+              <svg class="social__icon" width="27" height="27">
+                <use href="img/sprite.svg#youtube"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="social__item">
+            <a class="social__link social__link--tiktok" href="#" target="_blank" title="Тикток">
+              <span class="visually-hidden">Тикток</span>
+
+              <svg class="social__icon" width="27" height="27">
+                <use href="img/sprite.svg#tiktok"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="social__item">
+            <a class="social__link social__link--telegram" href="#" target="_blank" title="Телеграмм">
+              <span class="visually-hidden">Телеграмм</span>
+
+              <svg class="social__icon" width="27" height="27">
+                <use href="img/sprite.svg#telegram"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="social__item">
+            <a class="social__link social__link--vk" href="#" target="_blank" title="Вконтакте">
+              <span class="visually-hidden">Вконтакте</span>
+
+              <svg class="social__icon" width="27" height="27">
+                <use href="img/sprite.svg#vk"></use>
+              </svg>
             </a>
           </li>
         </ul>
       </div>
-    </aside>
-  </main>
+    </footer>
+  </div>
 
-  <footer class="main-footer">
-    <nav class="main-footer__nav main-nav">
-      <ul class="main-nav__list site-list site-list--footer">
-        <li class="site-list__item site-list__item--footer">
-          <a class="site-list__link site-list__link--footer" href="#" target="_blank">
-            Terms & Conditions
-          </a>
-        </li>
-
-        <li class="site-list__item site-list__item--footer">
-          <a class="site-list__link site-list__link--footer" href="#" target="_blank">
-            Cookies
-          </a>
-        </li>
-
-        <li class="site-list__item site-list__item--footer">
-          <a class="site-list__link site-list__link--footer" href="#" target="_blank">
-            Contacts
-          </a>
-        </li>
-
-        <li class="site-list__item site-list__item--footer">
-          <a class="site-list__link site-list__link--footer" href="#" target="_blank">
-            Careers
-          </a>
-        </li>
-
-        <li class="site-list__item site-list__item--footer">
-          <a class="site-list__link site-list__link--footer" href="#" target="_blank">
-            Brand Guide
-          </a>
-        </li>
-      </ul>
-    </nav>
-
-    <div class="main-footer__social social">
-      <h2 class="social__title">
-        Our social media:
-      </h2>
-
-      <ul class="social__list">
-        <li class="social__item">
-          <a class="social__link social__link--twitter" href="#" target="_blank">
-            <span class="visually-hidden">Твитер</span>
-
-            <svg width="34" height="34">
-              <use xlink:href="img/sprite.svg#facebook"></use>
-            </svg>
-          </a>
-        </li>
-
-        <li class="social__item">
-          <a class="social__link social__link--facebook" href="#" target="_blank">
-            <span class="visually-hidden">Фейсбук</span>
-
-            <svg width="34" height="34">
-              <use xlink:href="img/sprite.svg#instagram"></use>
-            </svg>
-          </a>
-        </li>
-
-        <li class="social__item">
-          <a class="social__link social__link--instagram" href="#" target="_blank">
-            <span class="visually-hidden">Инстаграмм</span>
-
-            <svg width="34" height="34">
-              <use xlink:href="img/sprite.svg#telegram"></use>
-            </svg>
-          </a>
-        </li>
-
-        <li class="social__item">
-          <a class="social__link social__link--linkedln" href="#" target="_blank">
-            <span class="visually-hidden">Линкдел</span>
-
-            <svg width="34" height="34">
-              <use xlink:href="img/sprite.svg#telegram"></use>
-            </svg>
-          </a>
-        </li>
-
-        <li class="social__item">
-          <a class="social__link social__link--youtube" href="#" target="_blank">
-            <span class="visually-hidden">Ютуб</span>
-
-            <svg width="34" height="34">
-              <use xlink:href="img/sprite.svg#telegram"></use>
-            </svg>
-          </a>
-        </li>
-
-        <li class="social__item">
-          <a class="social__link social__link--tiktok" href="#" target="_blank">
-            <span class="visually-hidden">Тикток</span>
-
-            <svg width="34" height="34">
-              <use xlink:href="img/sprite.svg#telegram"></use>
-            </svg>
-          </a>
-        </li>
-
-        <li class="social__item">
-          <a class="social__link social__link--telegram" href="#" target="_blank">
-            <span class="visually-hidden">Телеграмм</span>
-
-            <svg width="34" height="34">
-              <use xlink:href="img/sprite.svg#telegram"></use>
-            </svg>
-          </a>
-        </li>
-
-        <li class="social__item">
-          <a class="social__link social__link--vk" href="#" target="_blank">
-            <span class="visually-hidden">Вконтакте</span>
-
-            <svg width="34" height="34">
-              <use xlink:href="img/sprite.svg#telegram"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </footer>
+  <script src="./js/main-nav.js"></script>
+  <script src="./js/button-language.js"></script>
+  <script src="./js/simplebar.test.js"></script>
 </body>
 
 </html>

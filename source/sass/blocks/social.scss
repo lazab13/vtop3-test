@@ -1,0 +1,51 @@
+.social__title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0;
+  margin-bottom: 8px;
+
+  @media (min-width: $desctop-width) {
+    font-size: 16px;
+    text-align: right;
+    margin-bottom: 14px;
+  }
+}
+
+.social__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  @media (min-width: $desctop-width) {
+    width: 312px;
+  }
+}
+
+.social__link {
+  display: block;
+}
+
+.social__link .social__icon {
+  fill: #478bf9;
+
+  &:hover {
+    fill: #9dadf2;
+    transition: all 0.2s;
+  }
+
+  &:active {
+    transition: none;
+    opacity: 0.6;
+  }
+}
+
+.social__icon {
+  @media (min-width: $desctop-width) {
+    width: 32px;
+    height: 32px;
+  }
+}

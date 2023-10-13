@@ -1,0 +1,94 @@
+.main-header {
+  position: relative;
+  padding: 10px 10px 62px;
+
+  @media (min-width: $desctop-width) {
+    padding: 16px 140px 0;
+  }
+}
+
+.main-header__wrapper {
+  height: 54px;
+  padding: 10px 14px;
+  border: 2px solid #478bf9;
+  border-radius: 50px;
+
+  @media (min-width: $desctop-width) {
+    height: auto;
+    padding: 20px 48px;
+    border: 4px solid #478bf9;
+    border-radius: 64px;
+  }
+}
+
+.main-header--nojs .main-header__wrapper {
+  padding: 0;
+  padding-top: 40px;
+  height: auto;
+  border: none;
+}
+
+.main-header__button {
+  position: absolute;
+  background-image: url("../img/language-icon.svg");
+  background-size: 20px 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 2px solid #9dadf2;
+  border-radius: 50%;
+  background-color: #110a1d;
+  width: 36px;
+  height: 36px;
+  top: 20px;
+  right: 64px;
+  cursor: pointer;
+
+  @media (min-width: $desctop-width) {
+    background-size: 14px 14px;
+    background-position: 14px;
+    width: 75px;
+    height: 48px;
+    padding: 14px;
+    border-radius: 24px;
+    top: 40px;
+    right: 400px;
+  }
+
+  &:hover,
+  &:active {
+    opacity: 0.8;
+  }
+}
+
+.main-header__button-box--en .main-header__button::before {
+  @media (min-width: $desctop-width) {
+    content: "En";
+    position: absolute;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 23px;
+    top: 12px;
+    right: 14px;
+  }
+}
+
+.main-header__button-box--ru .main-header__button::before {
+  @media (min-width: $desctop-width) {
+    content: "Ru";
+    position: absolute;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    width: 23px;
+    top: 12px;
+    right: 14px;
+  }
+}
+
+.main-header--nojs .main-header__button-language {
+  top: 10px;
+  right: 10px;
+}
